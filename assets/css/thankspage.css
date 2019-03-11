@@ -1439,18 +1439,20 @@ ul.tl-about-info-listed{
 .tl-repair-listed li:last-child{
   margin-bottom: 0;
 }
-.cross li:before{
+/* .cross li:before{
   font-family: 'icomoon';
   font-size: 14px;
+  content: '\ea0f';
   content: ''!important;
   margin-right: 10px;
   display: inline-block;
   height: 30px;
-}
+} */
 .tl-repair-listed li:before{
-  font-family: 'icomoon';
+  font-family:  'IcoMoon-Free';
   font-size: 14px;
-  content: '\e91c';
+  /* content: '\e91c'; */
+  content: '\ea0f';
   margin-right: 10px;
   display: inline-block;
   height: 30px;

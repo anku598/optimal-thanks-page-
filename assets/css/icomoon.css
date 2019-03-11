@@ -9,6 +9,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'IcoMoon-Free';
+  src: url('../../fonts/Icomoonfree.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -32,6 +39,10 @@
 }
 .icon-squares:before {
   content: "\e902";
+}
+
+.icon-cross:before {
+  content: "\ea0f";
 }
 .icon-office-printer:before {
   content: "\e903";
