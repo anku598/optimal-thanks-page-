@@ -1084,6 +1084,7 @@ ul.tl-about-info-listed{
 }
 .tl-services-item h4{
   margin: 0 0 20px;
+  font-size: 1.8rem;
 }
 .th-bgColor .tl-services-item h4:hover,.th-bgColor .tl-services-item h4:hover a,.th-bgColor .tl-services-item h4 a:hover, .th-bgColor .tl-services-item:hover h4{
   color: #454545;
@@ -1127,15 +1128,16 @@ ul.tl-about-info-listed{
 .tl-services-listed{
   float: left;
   width: 100%;
-/*  border-bottom: 2px solid #f6f6f6;*/
 }
 /*.tl-services-listed.tl-about-services{
   border-top: 2px solid #f6f6f6;
 	padding-top: 70px;
 }*/
+
 .tl-services-listed .row > [class*="col-"]{
-  border-right: 2px solid #f6f6f6;
+  border-right: 2px solid #f1efef;
   margin-bottom: 98px;
+  list-style: none;
 }
 .tl-services-listed .row > [class*="col-"]:last-child{
   border-right: none;
@@ -4851,14 +4853,14 @@ a,ul li,img,.navbar-nav li:after,.tl-signup-btns:before,.tl-signup-btns,.tl-nav-
 	padding: 0 15px 15px;
 }
 .services-box-info h5 {
-	text-transform: uppercase;
-    color: #1e3953;
-    font-weight: 600;
-	margin-bottom: 15px;
+  text-transform: capitalize;
+  color: #1e3953;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
 }
 .services-box-info:before {
 	content: '';
-	background-image: url(../images/services-1.jpg);
 	position: absolute;
     top: 0;
     bottom: 0;
@@ -4868,8 +4870,6 @@ a,ul li,img,.navbar-nav li:after,.tl-signup-btns:before,.tl-signup-btns,.tl-nav-
 	border-radius: 6px;
 	opacity: 0;
 	transition: all 0.5s ease-in-out;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 .services-box-wrapper:hover .services-box-info:before {
 	opacity: 1;
